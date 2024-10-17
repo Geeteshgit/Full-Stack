@@ -1,0 +1,302 @@
+/* Global Settings */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font: weight 350px;
+}
+
+#container{
+    width: 100%;
+}
+
+#header .container, #main-nav .container{
+    padding-left: 9.5%;
+    padding-right: 9.5%;
+}
+
+
+ul {
+    list-style: none;
+}
+
+#main-nav .col-1-nav ul li{
+        display: inline;
+        padding: 5px;
+        font-size: medium;
+        font-weight: 400;
+}
+#main-nav .col-2-nav ul li{
+    display: inline;
+    padding: 5px;
+    font-size: smaller;
+    font-weight: 400;
+}
+
+#header .row .location i{
+    padding-left: 15px;
+    size: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* Helper classes */
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* Header */
+#header {
+    padding: 15px 0px 0px;
+    height: 61px;
+}
+
+#header .search{
+    width: 81%;
+    padding-left: 0px;
+}
+
+#header .search input[type="text"]{
+    width: 100%;
+    height: 34px;
+    padding-left: 35px;
+    border-radius: 3px;  
+    border-width: 0.1px;
+    outline: none;
+}
+
+#header .col-1 .logo{
+    width: 18%;
+}
+
+#header .col-1 .logo img{
+    width: auto;
+    height: 32px
+
+}
+
+/* Main-Navigation */
+#main-nav {
+    background-color:#F5F5F5;
+    height: 40px;
+    width: 100%;
+    padding: 10px 0px 10px;
+}
+
+
+#header .col-1{
+    width: 55%;
+}
+
+#header .col-2{
+    width: 19%;
+    padding-top: 5px;
+}
+
+#header .location{
+    width: 51%;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+#header .sign-in{
+    width: 30%;
+}
+
+#header .hamburger{
+    width: 10%;
+    padding: 2px;
+    
+}
+
+#header .sign-in button{
+    background-color: #F84464;
+    border: none;
+    color: #FFFFFF;
+    height: 26px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+#content{
+    background-color: #F5F5F5;
+    width: 100%;
+}
+
+#content .banner{
+    background-color: #ebebeb !important;
+    padding: 10px 9.5% 8px 9.5%;
+}
+
+#content .banner img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+#content .container{
+    width: 84.5%;
+    margin: auto;
+    padding-top:2%;
+    padding-left: 14px;
+}
+
+#content .events{
+    width: 100%;
+    margin: auto;
+    padding-top:3%;
+    padding-bottom: 4%;
+}
+
+#content h2{
+    padding-left: 14px;
+    color: #333;
+}
+
+#content .row h3{
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#content .row h4{
+    color: #666;
+    font-weight: 400;
+}
+
+#content .row img{
+    width: 92%;
+    height: 385px;
+    padding: 5px;
+    border-radius: 14px;
+}
+
+#content .row{
+    height: 100%;
+    padding-top: 3px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+
+#content .card-1, #content .event-1{
+    width: 20%;
+}
+#content .card-2, #content .event-2{
+    width: 20%;
+}
+#content .card-3, #content .event-3{
+    width: 20%;
+}
+#content .card-4, #content .event-4{
+    width: 20%;
+}
+#content .card-5, #content .event-5{
+    width: 20%;
+}
+
+#content .banner-2{
+    padding: 90px 9.5% 8px 9.5%;
+    width: 100%;
+}
+#content .banner-2 img{
+    width: 100%;
+}
+
+
+#content .events img{
+    width: 92%;
+    height: 230px;
+    padding: 5px;
+    border-radius: 14px;
+}
+
+#content .row::after{
+    display:block
+    content = "";
+    clear: both;
+}
+
+#content .premiere{
+    width: 100%;    
+    height: 650px;    
+    padding-top:1%;
+    padding-left: 9%;
+    padding-right: 9%;
+    background-color: #2B3148;
+}
+
+#content .image img{
+    height: 100px;
+    width: 92%;
+    padding-left: 10px;
+}
+
+#content .premiere .row h2{
+    color: #FFFFFF;
+    padding-top: 32px;
+    padding-left: 6px;
+}
+
+#content .premiere .row p{
+    color: #FFFFFF;
+    padding-left: 6px;
+    font-weight: 400;
+    font-size: smaller;
+    padding-bottom: 8px;
+}
+
+#content .premiere .row h3{
+    color: #FFFFFF;
+}
+
+#content .premiere .row h4{
+    color: #FFFFFF;
+}
+
+#content .premiere .row img{
+    width: 92%;
+    height: 330px;
+    padding: 5px;
+    border-radius: 14px;
+}
+
+#content .outdoor-events{
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+
+
+
+
+/* Footer */
+#footer {
+
+}
