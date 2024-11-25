@@ -483,13 +483,33 @@ p{
 
 /*  Shop Page  */
 
-
 #shop-header{
-    background-image: url("../images/banner/b2.jpg");
+    background-image: url("../images/banner/b1.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    text-align: center;
+    padding: 6vh;
+    height: 18vh;
+    width: 100%;
 }
+
+
+/* Blog Page */
+
+#blog-banner{
+    background-image: url(../images/blog/b13.jpg);
+    text-align: center;
+    padding: 3vh;
+    height: 18vh;
+}
+
+#blog-banner h2,
+#blog-banner h4{
+    color: #222;
+}
+
+
 
 
 
