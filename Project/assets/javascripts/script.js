@@ -13,3 +13,9 @@ if(close){
         nav.classList.remove('active');
     })
 }
+
+window.addEventListener('scroll', function() {
+    var scrollPosition = window.scrollY;
+    var bg = document.querySelector('.parallax-bg');
+    bg.style.transform = 'translateY(' + scrollPosition * 0.5 + 'px)';
+});
